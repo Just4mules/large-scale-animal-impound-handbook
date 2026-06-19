@@ -1,0 +1,75 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual env
+venv/
+env/
+ENV/
+.venv/
+
+# Data / generated
+data/
+*.db
+chroma/
+
+# Streamlit (keep config.toml, ignore other generated files if any)
+# .streamlit/  # Commented out - we want to commit config.toml
+
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Development / temp files
+check_*.py
+debug_app.py
+extract_*.py
+fix*.py
+inspect_cover.py
+marker_sample.log
+pdf_*_preview.png
+streamlit_*.log
+test_*.py
+verify.py
+convert_sample.log
+extract_md.log
+convert_sample.py
+extract_to_md.py
+fix2.py
+fix_md.py
+test_change.py
+test_list.py
+test_nav.py
+test_visuals.py
+check_marker.py
+check_intro.py
+debug_app.py
+inspect_cover.py
